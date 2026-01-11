@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "C/C++: Debug",
+        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "externalConsole": true,
+        "type": "cppdbg",
+        "request": "launch",
+        "preLaunchTask": "C/C++: Compile",
+        "internalConsoleOptions": "openOnSessionStart",
+        "logging": {
+            "moduleLoad": false,
+            "programOutput": false,
+            "trace": false,
+            "engineLogging": false
+        },
+        "showDisplayString": false,
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}",
+        "environment": [],
+        "osx": {
+            "MIMode": "lldb"
+        }
+    }
+    ]
+  }
